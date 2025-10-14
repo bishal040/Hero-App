@@ -1,9 +1,17 @@
-import React, { useState } from 'react';
+// src/components/AllApps/AllApps.jsx
 
-const AllApps = ({ data = [] }) => {
+import React, { useState } from 'react';
+// 1. Import the useLoaderData hook
+import { useLoaderData } from 'react-router-dom';
+import SingleApp from '../../pages/SingleApp/SingleApp';
+
+// 2. Remove the 'data' prop from the function signature
+const AllApps = () => {
+  // 3. Get the data from the loader
+  const data = useLoaderData();
   const [searchTerm, setSearchTerm] = useState('');
 
-  // Filter data dynamically based on search term
+  // Filter data based on the search term
   const filteredData = (data || []).filter(
     (item) => item?.title?.toLowerCase().includes(searchTerm.toLowerCase())
   );
@@ -26,39 +34,8 @@ const AllApps = ({ data = [] }) => {
       {/* Cards Grid */}
       <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6 justify-items-center">
         {filteredData.length > 0 ? (
-          filteredData.filter(Boolean).map((sApp) => (
-            <div key={sApp?.id || Math.random()} className="card bg-base-100 w-80 shadow-sm">
-              <figure>
-                <img
-                  src={
-                    sApp?.image ||
-                    'https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp'
-                  }
-                  alt={sApp?.title || 'App'}
-                />
-              </figure>
-              <div className="card-body">
-                <h2 className="card-title">{sApp?.title || 'Untitled'}</h2>
-                <div className="card-actions justify-between">
-                  <div className="badge badge-outline flex items-center gap-1">
-                    <img
-                      className="w-5"
-                      src="../../../src/assets/img/icon-downloads.png"
-                      alt="downloads"
-                    />
-                    <p className="text-green-300">{sApp?.downloads ?? '-'}</p>
-                  </div>
-                  <div className="badge badge-outline flex items-center gap-1">
-                    <img
-                      className="w-5"
-                      src="../../../src/assets/img/icon-ratings.png"
-                      alt="ratings"
-                    />
-                    <p className="text-yellow-600">{sApp?.ratingAvg ?? '-'}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+          filteredData.map((sApp) => (
+            <SingleApp key={sApp.id} sApp={sApp} />
           ))
         ) : (
           <p className="col-span-full text-center text-gray-500">No apps found.</p>
