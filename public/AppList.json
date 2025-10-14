@@ -1,0 +1,363 @@
+[
+  {
+    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "title": "Nova Launcher",
+    "companyName": "TeslaCoil Apps",
+    "id": 101,
+    "description": "The highly customizable, performance-driven home screen replacement for Android.",
+    "size": 15.2,
+    "reviews": 1450230,
+    "ratingAvg": 4.6,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 45010 },
+      { "name": "2 star", "count": 28900 },
+      { "name": "3 star", "count": 86320 },
+      { "name": "4 star", "count": 290000 },
+      { "name": "5 star", "count": 1000000 }
+    ]
+  },
+  {
+    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "title": "SwiftKey Keyboard",
+    "companyName": "Microsoft",
+    "id": 102,
+    "description": "An intelligent keyboard that learns your writing style, so you can type faster.",
+    "size": 45.5,
+    "reviews": 3200000,
+    "ratingAvg": 4.3,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 210000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 350000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "5 star", "count": 1790000 }
+    ]
+  },
+  {
+    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "title": "Pocket Casts",
+    "companyName": "Automattic",
+    "id": 103,
+    "description": "The world's most powerful podcast platform, an app by listeners, for listeners.",
+    "size": 25.8,
+    "reviews": 155780,
+    "ratingAvg": 4.7,
+    "downloads": 1000000,
+    "ratings": [
+      { "name": "1 star", "count": 3100 },
+      { "name": "2 star", "count": 1980 },
+      { "name": "3 star", "count": 5700 },
+      { "name": "4 star", "count": 30000 },
+      { "name": "5 star", "count": 115000 }
+    ]
+  },
+  {
+    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "title": "Solid Explorer",
+    "companyName": "NeatBytes",
+    "id": 104,
+    "description": "A powerful file manager with a sleek design and intuitive user interface.",
+    "size": 18.0,
+    "reviews": 210500,
+    "ratingAvg": 4.5,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 5500 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 45000 },
+      { "name": "5 star", "count": 140000 }
+    ]
+  },
+  {
+    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "title": "1Password",
+    "companyName": "AgileBits",
+    "id": 105,
+    "description": "The password manager that's as beautiful and simple as it is secure.",
+    "size": 55.3,
+    "reviews": 95000,
+    "ratingAvg": 4.8,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 11000 },
+      { "name": "5 star", "count": 80000 }
+    ]
+  },
+  {
+    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "title": "Todoist",
+    "companyName": "Doist Inc.",
+    "id": 106,
+    "description": "Trusted by millions, Todoist is the best online to-do list and task manager.",
+    "size": 30.1,
+    "reviews": 350400,
+    "ratingAvg": 4.6,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 10200 },
+      { "name": "2 star", "count": 8000 },
+      { "name": "3 star", "count": 22200 },
+      { "name": "4 star", "count": 70000 },
+      { "name": "5 star", "count": 240000 }
+    ]
+  },
+  {
+    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "title": "Canva",
+    "companyName": "Canva",
+    "id": 107,
+    "description": "Design anything. Publish anywhere. The ultimate tool for graphic design.",
+    "size": 28.9,
+    "reviews": 8500000,
+    "ratingAvg": 4.7,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 260000 },
+      { "name": "4 star", "count": 1000000 },
+      { "name": "5 star", "count": 7000000 }
+    ]
+  },
+  {
+    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "title": "Notion",
+    "companyName": "Notion Labs, Inc.",
+    "id": 108,
+    "description": "The all-in-one workspace for your notes, tasks, wikis, and databases.",
+    "size": 12.4,
+    "reviews": 230000,
+    "ratingAvg": 4.4,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 11000 },
+      { "name": "2 star", "count": 8000 },
+      { "name": "3 star", "count": 21000 },
+      { "name": "4 star", "count": 50000 },
+      { "name": "5 star", "count": 140000 }
+    ]
+  },
+  {
+    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "title": "Shazam",
+    "companyName": "Apple Inc.",
+    "id": 109,
+    "description": "Discover, identify, and explore the music you love in seconds.",
+    "size": 9.8,
+    "reviews": 7200000,
+    "ratingAvg": 4.8,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 1000000 },
+      { "name": "5 star", "count": 6000000 }
+    ]
+  },
+  {
+    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "title": "Strava",
+    "companyName": "Strava Inc.",
+    "id": 110,
+    "description": "Track your fitness activity with Strava. Record your run, map a cycling route & analyze your training.",
+    "size": 75.0,
+    "reviews": 1100000,
+    "ratingAvg": 4.5,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 80000 },
+      { "name": "4 star", "count": 250000 },
+      { "name": "5 star", "count": 700000 }
+    ]
+  },
+  {
+    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "title": "Duolingo",
+    "companyName": "Duolingo",
+    "id": 111,
+    "description": "Learn a new language for free. Fun, effective, and 100% free.",
+    "size": 35.6,
+    "reviews": 15000000,
+    "ratingAvg": 4.7,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 550000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "5 star", "count": 12000000 }
+    ]
+  },
+  {
+    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "title": "Headspace",
+    "companyName": "Headspace Inc.",
+    "id": 112,
+    "description": "Meditation and sleep made simple. Live a healthier, happier, more well-rested life.",
+    "size": 42.1,
+    "reviews": 780000,
+    "ratingAvg": 4.9,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 60000 },
+      { "name": "5 star", "count": 700000 }
+    ]
+  },
+  {
+    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "title": "TickTick",
+    "companyName": "Appest Inc.",
+    "id": 113,
+    "description": "A simple and effective to-do list and task manager app which helps you make schedule.",
+    "size": 22.7,
+    "reviews": 165000,
+    "ratingAvg": 4.7,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 25000 },
+      { "name": "5 star", "count": 130000 }
+    ]
+  },
+  {
+    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "title": "InShot",
+    "companyName": "InShot Inc.",
+    "id": 114,
+    "description": "A powerful all-in-one Video Editor and Video Maker with professional features.",
+    "size": 60.3,
+    "reviews": 12000000,
+    "ratingAvg": 4.8,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 1600000 },
+      { "name": "5 star", "count": 10000000 }
+    ]
+  },
+  {
+    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "title": "Bitwarden",
+    "companyName": "Bitwarden Inc.",
+    "id": 115,
+    "description": "An open-source password manager offering the easiest and safest way to store logins.",
+    "size": 38.5,
+    "reviews": 98000,
+    "ratingAvg": 4.7,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 3500 },
+      { "name": "4 star", "count": 12000 },
+      { "name": "5 star", "count": 80000 }
+    ]
+  },
+  {
+    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "title": "VLC for Android",
+    "companyName": "VideoLAN",
+    "id": 116,
+    "description": "VLC media player is a free and open source cross-platform multimedia player that plays most multimedia files.",
+    "size": 32.0,
+    "reviews": 1800000,
+    "ratingAvg": 4.4,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 140000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 1100000 }
+    ]
+  },
+  {
+    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "title": "Google Keep",
+    "companyName": "Google LLC",
+    "id": 117,
+    "description": "Quickly capture what's on your mind and get a reminder later at the right place or time.",
+    "size": 11.5,
+    "reviews": 2500000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 1500000 }
+    ]
+  },
+  {
+    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "title": "AccuWeather",
+    "companyName": "AccuWeather",
+    "id": 118,
+    "description": "Get live weather forecasts, storm alerts, and more with AccuWeather's superior accuracy.",
+    "size": 85.2,
+    "reviews": 3500000,
+    "ratingAvg": 4.2,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 1700000 }
+    ]
+  },
+  {
+    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "id": 119,
+    "description": "Talk, chat, hang out, and stay close with your friends and communities.",
+    "size": 90.7,
+    "reviews": 5500000,
+    "ratingAvg": 4.5,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 350000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 3700000 }
+    ]
+  },
+  {
+    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "id": 120,
+    "description": "Dive into anything. Reddit is a network of communities where people can find experiences built around their interests.",
+    "size": 58.1,
+    "reviews": 4200000,
+    "ratingAvg": 3.8,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "5 star", "count": 2100000 }
+    ]
+  }
+]
+
