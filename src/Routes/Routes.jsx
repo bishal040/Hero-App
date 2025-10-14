@@ -1,11 +1,9 @@
 import React from 'react';
 import { createBrowserRouter } from "react-router-dom";
 
-// Import your page/layout components
 import Root from '../pages/Root/Root';
 import ErrorPage from '../pages/ErrorPage/ErrorPage';
 import Home from '../pages/Home/Home';
-// FIX: Changed the path from ../pages/ to ../components/
 import SingleAppDetail from '../components/SingleAppDetail/SingleAppDetail';
 import AllApps from '../components/AllApps/AllApps';
 import InstalledApps from '../pages/InstalledApps/InstalledApps';
@@ -24,7 +22,7 @@ export const router = createBrowserRouter([
       {
         path: "/allApps",
         loader: () => fetch('/AppList.json'),
-        Component: AllApps, // Reuse Home component to show all apps
+        Component: AllApps,
       },
       {
         path: "/details/:appId",
@@ -42,7 +40,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/installedApps",
-        Component: InstalledApps, // This route doesn't need a loader
+        Component: InstalledApps,
       }
     ]
   },

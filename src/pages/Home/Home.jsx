@@ -6,7 +6,6 @@ import AllApps from '../../components/AllApps/AllApps';
 import TApps from '../../components/TApps/TApps';
 
 const Home = () => {
-  // Fetches the data loaded by the router for this route
   const data = useLoaderData();
 
   return (

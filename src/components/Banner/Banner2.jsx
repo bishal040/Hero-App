@@ -1,6 +1,5 @@
 import React from 'react';
 
-// Data for the statistics section
 const statsData = [
   {
     value: '29.6M',
@@ -25,14 +24,12 @@ const TrustedStatsSection = () => {
     <section className="bg-indigo-600 text-white w-full">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
         
-        {/* Main Title */}
         <div className="text-center">
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">
             Trusted By Millions, Built For You
           </h2>
         </div>
         
-        {/* Stats Grid */}
         <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
           {statsData.map((stat) => (
             <div key={stat.label} className="flex flex-col">
@@ -54,5 +51,4 @@ const TrustedStatsSection = () => {
   );
 };
 
-// The file is named Button2.jsx as requested, but the component is named descriptively.
 export default TrustedStatsSection;

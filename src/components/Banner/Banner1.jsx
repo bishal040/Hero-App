@@ -4,12 +4,10 @@ import { FaGooglePlay, FaApple } from "react-icons/fa";
 const Button1 = () => {
   return (
     <div className="flex flex-col items-center justify-center py-16 bg-gray-50 text-center">
-      {/* Heading */}
       <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
         We Build <span className="text-purple-600">Productive</span> Apps
       </h1>
 
-      {/* Subtext */}
       <p className="max-w-2xl text-gray-600 text-base sm:text-lg mb-6">
         At <span className="font-semibold">HERO.IO</span>, we craft innovative
         apps designed to make everyday life simpler, smarter, and more exciting.
@@ -17,7 +15,6 @@ const Button1 = () => {
         an impact.
       </p>
 
-      {/* Store Buttons */}
       <div className="flex gap-4 mb-10">
         <button className="flex items-center gap-2 bg-white border border-gray-300 text-gray-800 px-5 py-2 rounded-lg shadow hover:shadow-md transition">
           <FaGooglePlay className="text-xl text-green-500" />

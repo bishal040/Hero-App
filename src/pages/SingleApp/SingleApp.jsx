@@ -1,7 +1,5 @@
-// src/pages/SingleApp/SingleApp.jsx
-
 import React from 'react';
-import { Link } from 'react-router-dom'; // 1. Import Link from react-router-dom
+import { Link } from 'react-router-dom';
 
 const SingleApp = ({ sApp }) => {
   if (!sApp) return null;
@@ -9,14 +7,13 @@ const SingleApp = ({ sApp }) => {
   const { id, image, ratingAvg, title, downloads } = sApp;
 
   return (
-    // 2. Wrap the entire card in a Link component that points to the details route
     <Link to={`/details/${id}`} className="card bg-base-100 w-80 shadow-sm transition-transform hover:scale-105">
-      <figure>
+      <div>
         <img
           src={image || "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"}
           alt={title || "App"}
         />
-      </figure>
+      </div>
       <div className="card-body">
         <h2 className="card-title">{title}</h2>
         <div className="card-actions justify-between">

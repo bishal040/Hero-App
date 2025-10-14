@@ -1,11 +1,7 @@
-// src/components/SingleAppDetail/SingleAppDetail.jsx
-
-import React, { useState, useEffect } from 'react'; // 1. Import useState and useEffect
+import React, { useState, useEffect } from 'react';
 import { useLoaderData } from 'react-router-dom';
-// 2. Import both save and get functions from localStorage utility
 import { saveInstalledApp, getInstalledApps } from '../../utils/localStorage';
 
-// Helper function to format large numbers
 const formatNumber = (num) => {
   if (num >= 1000000) return (num / 1000000).toFixed(0) + 'M';
   if (num >= 1000) return (num / 1000).toFixed(0) + 'K';
@@ -14,26 +10,22 @@ const formatNumber = (num) => {
 
 const SingleAppDetail = () => {
   const app = useLoaderData();
-  // 3. Add state to track if the app is installed
   const [isInstalled, setIsInstalled] = useState(false);
 
-  // 4. Check localStorage when the component loads
   useEffect(() => {
     const installedApps = getInstalledApps();
-    // Check if an app with the current ID already exists in the list
     const alreadyInstalled = installedApps.find(installedApp => installedApp.id === app.id);
     if (alreadyInstalled) {
-      setIsInstalled(true); // If so, set the state to true
+      setIsInstalled(true);
     }
-  }, [app.id]); // This effect runs whenever the app ID changes
+  }, [app.id]);
 
   const handleInstall = () => {
     const success = saveInstalledApp(app);
     if (success) {
-      setIsInstalled(true); // 5. Update state immediately after installing
+      setIsInstalled(true);
       alert(`Successfully installed ${app.title}!`);
     } else {
-      // This part might not be needed if the button is already disabled, but it's good for safety
       alert(`${app.title} is already installed.`);
     }
   };
@@ -47,7 +39,6 @@ const SingleAppDetail = () => {
 
   return (
     <div className="container mx-auto p-4 md:p-8 max-w-4xl">
-      {/* ... (Header and other sections remain the same) ... */}
       <div className="flex flex-col md:flex-row items-center gap-6 mb-8">
         <img src={app.image} alt={app.title} className="w-32 h-32 rounded-3xl shadow-lg" />
         <div className="flex-grow text-center md:text-left">
@@ -69,7 +60,6 @@ const SingleAppDetail = () => {
           </div>
         </div>
         <div className="w-full md:w-auto mt-4 md:mt-0">
-          {/* 6. Update the button to be disabled and change text based on the isInstalled state */}
           <button 
             onClick={handleInstall} 
             className="btn btn-primary btn-block text-lg"
@@ -80,7 +70,6 @@ const SingleAppDetail = () => {
         </div>
       </div>
 
-      {/* ... (Ratings and Description sections remain the same) ... */}
       <div className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">Ratings</h2>
         <div className="space-y-2">

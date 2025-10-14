@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { getInstalledApps, removeInstalledApp } from '../../utils/localStorage';
 
-// Helper function to format large numbers
 const formatNumber = (num) => {
   if (num >= 1000000) return (num / 1000000).toFixed(0) + 'M';
   return num;
@@ -10,15 +9,12 @@ const formatNumber = (num) => {
 const InstalledApps = () => {
   const [apps, setApps] = useState([]);
 
-  // Load apps from localStorage when the component mounts
   useEffect(() => {
     setApps(getInstalledApps());
   }, []);
 
   const handleUninstall = (appId) => {
-    // Remove from localStorage
     removeInstalledApp(appId);
-    // Update the state to re-render the component with the updated list
     setApps(getInstalledApps());
     alert('App uninstalled successfully!');
   };
