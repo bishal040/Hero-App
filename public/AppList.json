@@ -1,6 +1,7 @@
+
 [
   {
-    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "image": "../../src/assets/img/app1.webp",
     "title": "Nova Launcher",
     "companyName": "TeslaCoil Apps",
     "id": 101,
@@ -18,7 +19,7 @@
     ]
   },
   {
-    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "image": "../../src/assets/img/accuweather.jpg",
     "title": "SwiftKey Keyboard",
     "companyName": "Microsoft",
     "id": 102,
@@ -36,7 +37,7 @@
     ]
   },
   {
-    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "image": "../../src/assets/img/app8.png",
     "title": "Pocket Casts",
     "companyName": "Automattic",
     "id": 103,
@@ -54,7 +55,7 @@
     ]
   },
   {
-    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+   "image": "../../src/assets/img/app4.webp",
     "title": "Solid Explorer",
     "companyName": "NeatBytes",
     "id": 104,
@@ -72,7 +73,7 @@
     ]
   },
   {
-    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "image": "../../src/assets/img/app5.webp",
     "title": "1Password",
     "companyName": "AgileBits",
     "id": 105,
@@ -90,7 +91,7 @@
     ]
   },
   {
-    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "image": "../../src/assets/img/app6.webp",
     "title": "Todoist",
     "companyName": "Doist Inc.",
     "id": 106,
@@ -108,7 +109,7 @@
     ]
   },
   {
-    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "image": "../../src/assets/img/app7.png",
     "title": "Canva",
     "companyName": "Canva",
     "id": 107,
@@ -126,7 +127,7 @@
     ]
   },
   {
-    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "image": "../../src/assets/img/notion.png",
     "title": "Notion",
     "companyName": "Notion Labs, Inc.",
     "id": 108,
@@ -144,7 +145,7 @@
     ]
   },
   {
-    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "image": "../../src/assets/img/shazam.jpg",
     "title": "Shazam",
     "companyName": "Apple Inc.",
     "id": 109,
@@ -162,7 +163,7 @@
     ]
   },
   {
-    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "image": "../../src/assets/img/strava.png",
     "title": "Strava",
     "companyName": "Strava Inc.",
     "id": 110,
@@ -180,7 +181,7 @@
     ]
   },
   {
-    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "image": "../../src/assets/img/duolingo.png",
     "title": "Duolingo",
     "companyName": "Duolingo",
     "id": 111,
@@ -198,7 +199,7 @@
     ]
   },
   {
-    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "image": "../../src/assets/img/headspace.png",
     "title": "Headspace",
     "companyName": "Headspace Inc.",
     "id": 112,
@@ -216,7 +217,7 @@
     ]
   },
   {
-    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "image": "../../src/assets/img/ticktick.jpg",
     "title": "TickTick",
     "companyName": "Appest Inc.",
     "id": 113,
@@ -234,7 +235,7 @@
     ]
   },
   {
-    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "image": "../../src/assets/img/inshot.png",
     "title": "InShot",
     "companyName": "InShot Inc.",
     "id": 114,
@@ -252,7 +253,7 @@
     ]
   },
   {
-    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "image": "../../src/assets/img/app3.webp",
     "title": "Bitwarden",
     "companyName": "Bitwarden Inc.",
     "id": 115,
@@ -270,7 +271,7 @@
     ]
   },
   {
-    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "image": "../../src/assets/img/vlc.png",
     "title": "VLC for Android",
     "companyName": "VideoLAN",
     "id": 116,
@@ -288,7 +289,7 @@
     ]
   },
   {
-    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "image": "../../src/assets/img/googlekeep.png",
     "title": "Google Keep",
     "companyName": "Google LLC",
     "id": 117,
@@ -306,7 +307,7 @@
     ]
   },
   {
-    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "image": "../../src/assets/img/app2.webp",
     "title": "AccuWeather",
     "companyName": "AccuWeather",
     "id": 118,
@@ -324,7 +325,7 @@
     ]
   },
   {
-    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "image": "../../src/assets/img/discord.png",
     "title": "Discord",
     "companyName": "Discord Inc.",
     "id": 119,
@@ -342,7 +343,7 @@
     ]
   },
   {
-    "image": "https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_medium.png",
+    "image": "../../src/assets/img/reddit.jpg",
     "title": "Reddit",
     "companyName": "Reddit Inc.",
     "id": 120,

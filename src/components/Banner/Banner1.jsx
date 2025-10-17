@@ -15,17 +15,27 @@ const Button1 = () => {
         an impact.
       </p>
 
-      <div className="flex gap-4 mb-10">
-        <button className="flex items-center gap-2 bg-white border border-gray-300 text-gray-800 px-5 py-2 rounded-lg shadow hover:shadow-md transition">
-          <FaGooglePlay className="text-xl text-green-500" />
-          <span>Google Play</span>
-        </button>
+        <div className="flex gap-4 mb-10">
+          <button
+            onClick={() =>
+              window.open("https://play.google.com/store/apps", "_blank")
+            }
+            className="flex items-center gap-2 bg-white border border-gray-300 text-gray-800 px-5 py-2 rounded-lg shadow hover:shadow-md transition"
+          >
+            <FaGooglePlay className="text-xl text-green-500" />
+            <span>Google Play</span>
+          </button>
 
-        <button className="flex items-center gap-2 bg-white border border-gray-300 text-gray-800 px-5 py-2 rounded-lg shadow hover:shadow-md transition">
-          <FaApple className="text-xl text-black" />
-          <span>App Store</span>
-        </button>
-      </div>
+          <button
+            onClick={() =>
+              window.open("https://apps.apple.com/", "_blank")
+            }
+            className="flex items-center gap-2 bg-white border border-gray-300 text-gray-800 px-5 py-2 rounded-lg shadow hover:shadow-md transition"
+          >
+            <FaApple className="text-xl text-black" />
+            <span>App Store</span>
+          </button>
+        </div>
       <div className="relative">
         <img
           src="../../src/assets/img/hero.png"

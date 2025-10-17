@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { FaGithub } from "react-icons/fa";
-
+import { Link } from 'react-router-dom';
 const Navbar = () => {
   const activeLinkStyle = {
     textDecoration: 'underline',
@@ -48,7 +48,7 @@ const Navbar = () => {
           <div
             tabIndex={0}
             role="button"
-            className="lg:hidden text-black"
+            className="sm:hidden text-black"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -68,18 +68,18 @@ const Navbar = () => {
             {navLinks}
           </ul>
         </div>
-        <div className="flex items-center gap-2 ml-2">
-          <img src="../../src/assets/img/logo.png" alt="Logo" className="w-12"/>
+        <Link to="/" className="flex items-center gap-2 ml-2">
+          <img src="../../src/assets/img/logo.png" alt="Logo" className="w-12" />
           <p className="font-semibold text-black">HERO.IO</p>
-        </div>
+        </Link>
       </div>
-      <div className="navbar-center hidden lg:flex">
+      <div className="navbar-center hidden sm:flex">
         <ul className="menu menu-horizontal px-1 space-x-4 font-semibold text-black">
           {navLinks}
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn bg-purple-600 text-white hover:bg-purple-700">
+        <a className="btn bg-purple-600 text-white hover:bg-purple-700" href="https://github.com/bishal040" target="_blank" rel="noopener noreferrer">
           <FaGithub className="mr-2" />
           Contribute
         </a>
