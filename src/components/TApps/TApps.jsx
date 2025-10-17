@@ -11,14 +11,15 @@ const TApps = ({ data }) => {
   const visibleData = data.slice(0, visibleCount); // slice the data to show only visibleCount
 
   return (
-    <div>
-      <h1 className="text-3xl text-center p-6 font-semibold">Books</h1>
+    <div className='px-0 sm:px-20  lg:px-60'>
+      <h1 className="text-3xl text-center p-6 text-black font-semibold mb-2">Trending Apps</h1>
+      <h1 className='text-lg text-zinc-500 mb-3 text-center'>Explore All Trending Apps on the Market developed by us</h1>
 
       <div className="grid 
-                      grid-cols-2 
-                      sm:grid-cols-2 
-                      md:grid-cols-3 
-                      xl:grid-cols-4 
+                      grid-cols-2  
+                      md:grid-cols-2 
+                      xl:grid-cols-3
+                      2xl:grid-cols-4 
                       gap-6 
                       justify-items-center 
                       px-6 pb-4">

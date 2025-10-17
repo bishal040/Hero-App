@@ -18,10 +18,9 @@ const statsData = [
   },
 ];
 
-
 const TrustedStatsSection = () => {
   return (
-    <section className="bg-indigo-600 text-white w-full">
+    <section className="w-full bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
         
         <div className="text-center">
@@ -36,10 +35,10 @@ const TrustedStatsSection = () => {
               <p className="order-2 mt-2 text-5xl sm:text-6xl font-bold tracking-tight">
                 {stat.value}
               </p>
-              <p className="order-1 text-sm sm:text-base font-medium text-indigo-200 uppercase tracking-wider">
+              <p className="order-1 text-sm sm:text-base font-medium text-indigo-100 uppercase tracking-wider">
                 {stat.label}
               </p>
-              <p className="order-3 mt-2 text-sm sm:text-base text-indigo-200">
+              <p className="order-3 mt-2 text-sm sm:text-base text-indigo-100">
                 {stat.description}
               </p>
             </div>
