@@ -69,7 +69,7 @@ const Navbar = () => {
           </ul>
         </div>
         <Link to="/" className="flex items-center gap-2 ml-2">
-          <img src="../../src/assets/img/logo.png" alt="Logo" className="w-12" />
+          <img src="https://i.postimg.cc/wTF20FyL/logo.png" alt="Logo" className="w-12" />
           <p className="font-semibold text-black">HERO.IO</p>
         </Link>
       </div>

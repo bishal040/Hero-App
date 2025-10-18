@@ -7,7 +7,7 @@ const ErrorPage = () => {
         
         
         <div className="w-64 md:w-80 mb-8">
-          <img src="../../src/assets/img/error-404.png" alt="" />
+          <img src="https://i.postimg.cc/TYTQVBwW/error-404.png" alt="" />
                    </div>
 
         <h1 className="text-3xl md:text-5xl font-bold text-gray-800 mb-4">

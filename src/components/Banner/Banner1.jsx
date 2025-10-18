@@ -38,9 +38,9 @@ const Button1 = () => {
         </div>
       <div className="relative">
         <img
-          src="../../src/assets/img/hero.png"
+          src="https://i.postimg.cc/CLwJG91H/hero.png"
           alt="App Preview"
-          className="w-full  rounded-3xl shadow-lg"
+          className="w-full  rounded-3xl"
         />
       </div>
     </div>

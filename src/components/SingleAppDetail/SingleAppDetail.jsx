@@ -67,32 +67,32 @@ const SingleAppDetail = () => {
           <div className="flex justify-center md:justify-start gap-8 mt-4 text-center">
             <div>
               <img
-                src="../../src/assets/img/icon-downloads.png"
+                src="https://i.postimg.cc/hPKMLNj9/icon-downloads.png"
                 alt=""
                 className="w-6 h-6"
               />
               <p className="text-sm text-gray-500">Downloads</p>
-              <p className="text-xl font-bold text-left">
+              <p className="text-xl font-semibold text-left">
                 {formatNumber(app.downloads)}
               </p>
             </div>
             <div>
               <img
-                src="../../src/assets/img/icon-ratings.png"
+                src="https://i.postimg.cc/Yqt86T9N/icon-ratings.png"
                 alt=""
                 className="w-6 h-6"
               />
               <p className="text-sm text-gray-500">Average Ratings</p>
-              <p className="text-xl font-bold text-left">{app.ratingAvg} ★</p>
+              <p className="text-xl font-semibold text-left">{app.ratingAvg} ★</p>
             </div>
             <div>
               <img
-                src="../../src/assets/img/icon-review.png"
+                src="https://i.postimg.cc/MKzt7gT7/icon-review.png"
                 alt=""
                 className="w-6 h-6"
               />
               <p className="text-sm text-gray-500">Total Reviews</p>
-              <p className="text-xl font-bold text-left">
+              <p className="text-xl font-semibold text-left">
                 {formatNumber(totalReviews)}
               </p>
             </div>

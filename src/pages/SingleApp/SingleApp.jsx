@@ -33,7 +33,7 @@ const SingleApp = ({ sApp }) => {
           <div className="flex justify-between items-center text-xs mt-1">
             <div className="flex items-center gap-1 text-emerald-600 font-medium">
               <img
-                src="/src/assets/img/icon-downloads.png"
+                src="https://i.postimg.cc/hPKMLNj9/icon-downloads.png"
                 alt="downloads"
                 className="w-4 h-4"
               />
@@ -41,7 +41,7 @@ const SingleApp = ({ sApp }) => {
             </div>
             <div className="flex items-center gap-1 text-orange-500 font-medium">
               <img
-                src="/src/assets/img/icon-ratings.png"
+                src="https://i.postimg.cc/Yqt86T9N/icon-ratings.png"
                 alt="rating"
                 className="w-4 h-4"
               />

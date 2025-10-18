@@ -1,7 +1,7 @@
 
 [
   {
-    "image": "../../src/assets/img/app1.webp",
+    "image": "https://i.postimg.cc/vHGXrCBb/app1.webp",
     "title": "Nova Launcher",
     "companyName": "TeslaCoil Apps",
     "id": 101,
@@ -19,7 +19,7 @@
     ]
   },
   {
-    "image": "../../src/assets/img/accuweather.jpg",
+    "image": "https://i.postimg.cc/446BhXJx/accuweather.jpg",
     "title": "SwiftKey Keyboard",
     "companyName": "Microsoft",
     "id": 102,
@@ -37,7 +37,7 @@
     ]
   },
   {
-    "image": "../../src/assets/img/app8.png",
+    "image": "https://i.postimg.cc/X7nxftJp/app8.png",
     "title": "Pocket Casts",
     "companyName": "Automattic",
     "id": 103,
@@ -55,7 +55,7 @@
     ]
   },
   {
-   "image": "../../src/assets/img/app4.webp",
+   "image": "https://i.postimg.cc/gkG4V1Jk/app4.webp",
     "title": "Solid Explorer",
     "companyName": "NeatBytes",
     "id": 104,
@@ -73,7 +73,7 @@
     ]
   },
   {
-    "image": "../../src/assets/img/app5.webp",
+    "image": "https://i.postimg.cc/8PTwRx5z/app5.webp",
     "title": "1Password",
     "companyName": "AgileBits",
     "id": 105,
@@ -91,7 +91,7 @@
     ]
   },
   {
-    "image": "../../src/assets/img/app6.webp",
+    "image": "https://i.postimg.cc/Dy75rRZz/app6.webp",
     "title": "Todoist",
     "companyName": "Doist Inc.",
     "id": 106,
@@ -109,7 +109,7 @@
     ]
   },
   {
-    "image": "../../src/assets/img/app7.png",
+    "image": "https://i.postimg.cc/9Fc1dsMM/app7.png",
     "title": "Canva",
     "companyName": "Canva",
     "id": 107,
@@ -127,7 +127,7 @@
     ]
   },
   {
-    "image": "../../src/assets/img/notion.png",
+    "image": "https://i.postimg.cc/jdvcZvwn/notion.png",
     "title": "Notion",
     "companyName": "Notion Labs, Inc.",
     "id": 108,
@@ -145,7 +145,7 @@
     ]
   },
   {
-    "image": "../../src/assets/img/shazam.jpg",
+    "image": "https://i.postimg.cc/Dy56B5Jr/shazam.jpg",
     "title": "Shazam",
     "companyName": "Apple Inc.",
     "id": 109,
@@ -163,7 +163,7 @@
     ]
   },
   {
-    "image": "../../src/assets/img/strava.png",
+    "image": "https://i.postimg.cc/vHGXrCBb/app1.webp",
     "title": "Strava",
     "companyName": "Strava Inc.",
     "id": 110,
@@ -181,7 +181,7 @@
     ]
   },
   {
-    "image": "../../src/assets/img/duolingo.png",
+    "image": "https://i.postimg.cc/zXqpC4Bg/duolingo.png",
     "title": "Duolingo",
     "companyName": "Duolingo",
     "id": 111,
@@ -199,7 +199,7 @@
     ]
   },
   {
-    "image": "../../src/assets/img/headspace.png",
+    "image": "https://i.postimg.cc/BQJNTR62/headspace.png",
     "title": "Headspace",
     "companyName": "Headspace Inc.",
     "id": 112,
@@ -217,7 +217,7 @@
     ]
   },
   {
-    "image": "../../src/assets/img/ticktick.jpg",
+    "image": "https://i.postimg.cc/hPMspMzb/ticktick.jpg",
     "title": "TickTick",
     "companyName": "Appest Inc.",
     "id": 113,
@@ -235,7 +235,7 @@
     ]
   },
   {
-    "image": "../../src/assets/img/inshot.png",
+    "image": "https://i.postimg.cc/yYnjvngJ/inshot.png",
     "title": "InShot",
     "companyName": "InShot Inc.",
     "id": 114,
@@ -253,7 +253,7 @@
     ]
   },
   {
-    "image": "../../src/assets/img/app3.webp",
+    "image": "https://i.postimg.cc/tC9D38Ts/bitwarden.png",
     "title": "Bitwarden",
     "companyName": "Bitwarden Inc.",
     "id": 115,
@@ -271,7 +271,7 @@
     ]
   },
   {
-    "image": "../../src/assets/img/vlc.png",
+    "image": "https://i.postimg.cc/qMQwjQhx/vlc.png",
     "title": "VLC for Android",
     "companyName": "VideoLAN",
     "id": 116,
@@ -289,7 +289,7 @@
     ]
   },
   {
-    "image": "../../src/assets/img/googlekeep.png",
+    "image": "https://i.postimg.cc/MKzt7gTR/googlekeep.png",
     "title": "Google Keep",
     "companyName": "Google LLC",
     "id": 117,
@@ -307,7 +307,7 @@
     ]
   },
   {
-    "image": "../../src/assets/img/app2.webp",
+    "image": "https://i.postimg.cc/rFqg17mc/app2.webp",
     "title": "AccuWeather",
     "companyName": "AccuWeather",
     "id": 118,
@@ -325,7 +325,7 @@
     ]
   },
   {
-    "image": "../../src/assets/img/discord.png",
+    "image": "https://i.postimg.cc/Dy75rRZJ/discord.png",
     "title": "Discord",
     "companyName": "Discord Inc.",
     "id": 119,
@@ -343,7 +343,7 @@
     ]
   },
   {
-    "image": "../../src/assets/img/reddit.jpg",
+    "image": "https://i.postimg.cc/ncT20Tj7/reddit.jpg",
     "title": "Reddit",
     "companyName": "Reddit Inc.",
     "id": 120,

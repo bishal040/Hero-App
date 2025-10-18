@@ -7,9 +7,7 @@ const AppError = () => {
         
         
         <div className="w-64 md:w-80 mb-8">
-          <img src="../../src/assets/img/App-Error.png" alt="" />
-                   </div>
-
+          <img src="https://i.postimg.cc/KvmQPCzZ/App-Error.png" alt="" /></div>
         <h1 className="text-3xl md:text-5xl font-bold text-gray-800 mb-4">
           OPPS!! APP NOT FOUND
         </h1>

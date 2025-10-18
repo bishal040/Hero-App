@@ -73,10 +73,10 @@ const InstalledApps = () => {
                     <h2 className="text-lg text-black">{app.title}</h2>
                     <div className="flex items-center gap-4 text-sm text-gray-500 mt-1">
                       <span className="flex items-center">
-                        <img src="../../src/assets/img/icon-downloads.png" alt="" className="w-4 h-4" /> {formatNumber(app.downloads)}
+                        <img src="https://i.postimg.cc/hPKMLNj9/icon-downloads.png" alt="" className="w-4 h-4" /> {formatNumber(app.downloads)}
                       </span>
                       <span className="flex items-center">
-                        <img src="../../src/assets/img/icon-ratings.png" alt="" className="w-4 h-4" /> {app.ratingAvg}
+                        <img src="https://i.postimg.cc/Yqt86T9N/icon-ratings.png" alt="" className="w-4 h-4" /> {app.ratingAvg}
                       </span>
                       <span>{app.size} MB</span>
                     </div>
